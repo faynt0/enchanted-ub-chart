@@ -1,0 +1,88 @@
+.class {
+    width: auto;
+    height: 40px;
+}
+
+.dex {
+
+}
+
+.dex {
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #696767;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+td img.dex,
+td img.atk {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+td img.class {
+    width: 50px;
+    height: auto;
+    margin: 5px;
+}
+
+td:first-child {
+    text-align: center;
+    border-right: 1px solid #ddd;
+    position: relative;
+}
+
+td:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.badge {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: white;
+    background: white;
+    border-radius: 50%;
+    padding: 10px 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.badge.dex {
+    background: #ec8b2a;
+}
+
+.badge.atk {
+    background: #aa0bb6;
+}
