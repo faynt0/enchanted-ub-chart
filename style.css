@@ -35,13 +35,13 @@ table {
 }
 
 td {
-    padding: 10px;
+    padding: 20px;
     vertical-align: top;
 }
 
 td img.dex,
 td img.atk {
-    width: 100px;
+    width: 60px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -62,21 +62,24 @@ td:first-child {
 td:last-child {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     padding: 20px;
 }
 
+td div {
+    position: relative;
+}
 
 .badge {
     position: absolute;
-    top: 5px;
+    top: 15px;
     right: 10px;
     color: white;
     background: white;
     border-radius: 50%;
-    padding: 10px 10px;
+    padding: 7px 7px;
     font-size: 12px;
     font-weight: bold;
+    filter: blur(1.5px);
 }
 
 .badge.dex {
@@ -85,4 +88,30 @@ td:last-child {
 
 .badge.atk {
     background: #aa0bb6;
+}
+
+.weaponbadge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    color: red;
+    padding: 10px 10px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.weaponbadge img {
+    height: 30px;
+}
+
+.bgod {}
+.deva {}
+.arcana {}
+.rof {}
+
+.disclaimer {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 2rem;
 }
